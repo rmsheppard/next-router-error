@@ -5,6 +5,7 @@ const data = [
 
 const handler = async (req, res) => {
 
+  // simulating real query for data
   setTimeout(() => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'application/json');
